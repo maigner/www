@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bibtex2html -nodoc -d -r maigner.bib
+TMPDIR=. bibtex2html -nodoc -d -r maigner.bib
 
 cat > maigner-pub.html <<EOF
 <!DOCTYPE html>
